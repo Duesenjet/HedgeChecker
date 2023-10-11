@@ -8,4 +8,6 @@ um das Risiko aufzuteilen.
 
 ### To Do
 + Logik vom Hedgen implementieren 
-+ 
+
+### Gedanken zum Codeprozess 
+eventuell eigene currency pair Klasse machen 

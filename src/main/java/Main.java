@@ -51,7 +51,7 @@ public class Main {
             if (input.equals(leaveInput)){break;}       //if input is leaving word, break and exit of input
             boolean first = checkCurr(input.substring(0,3));
             boolean second = checkCurr(input.substring(3,6));
-            if (first && second){  //if both currencies are correct, add the pair to the long or short list 
+            if (first && second){  //if both currencies are correct, add the pair to the long or short list
                 if (dir.equals("Long"))
                     longTrades.add(input.toUpperCase(Locale.ROOT));
                 else
