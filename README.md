@@ -1,13 +1,12 @@
 # HedgeChecker
 
-## Plan
-Bauen einer Software, die meine Trades checkt, ob das Risiko gut verteilt
-wurde. Wenn unverteilt, Vorschläge ausgeben wo man einen Trade suchen soll
-um das Risiko aufzuteilen. 
+## Information
+Software, welche die Risikoverteilung eingegebener Trades im Forexmarkt prüft 
+und bei der optimalen Risikoverteilung hilft. 
 
 
 ### To Do
-+ Logik vom Hedgen implementieren 
++ Erweiterung bei ungleichmäßiger Verteilung -> weitere Möglichkeiten zur Risikoverteilung
 
 ### Gedanken zum Codeprozess 
-eventuell eigene currency pair Klasse machen 
++ eventuell eigene currency pair Klasse machen
