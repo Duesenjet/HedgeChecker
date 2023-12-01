@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         sepl();
@@ -20,19 +19,15 @@ public class Main {
             System.out.println(shortTrades.get(i));
 
         hedgeChecker.hedgeCheck(longTrades, shortTrades);
-
         scanner.close();
     }
     static void sepl() {System.out.println("-".repeat(80));}
-
     static Currency currency = new Currency();                  //Currency object
     static HedgeChecker hedgeChecker = new HedgeChecker();      //Hedgechecker obejct
     static String leaveInput = "n";                                         //word that leads to next input
     static Scanner scanner = new Scanner(System.in);
     static List<String> longTrades = new ArrayList();
     static List<String> shortTrades = new ArrayList();
-
-  
     static String getInput() {               //method for getting the correct Input
         boolean check = true;
         String input;
@@ -66,6 +61,4 @@ public class Main {
                 System.out.println("Currency not existing!");
         }
     }
-
-
 }

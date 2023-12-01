@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.*;
 public class HedgeChecker {
     static List<String> recommendations = new ArrayList<>();
     static int lAUD = 0;

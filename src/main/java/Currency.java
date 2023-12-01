@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
+import java.util.*;
 public class Currency {
-
     static List<String> currencies = new ArrayList();
     static {
         currencies.add("EUR");
